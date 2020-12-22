@@ -1,3 +1,9 @@
+**Deprecated**
+
+The initial Authorino PoC in Ruby is now deprecated. We have a brand new repo where we've kicked-off our Go lang implementation: [3scale-labs/authorino](https://github.com/3scale-labs/authorino.git).
+
+----
+
 # Welcome to Authorino!
 
 Authorino is an AuthN/AuthZ broker that implements [Envoy’s external authorization](https://www.envoyproxy.io/docs/envoy/latest/start/sandboxes/ext_authz) gRPC protocol. It adds protection to your cloud-native APIs with:
@@ -407,7 +413,7 @@ Try the [example](examples) on your Docker environment. You'll get the following
 Start by cloning the repo:
 
 ```shell
-git clone git@github.com:3scale-labs/authorino.git
+git clone git@github.com:3scale-labs/authorino-rb.git
 ```
 
 #### 2. Run the services
